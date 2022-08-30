@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/clarity
+    name: clarity
+    username: clarity
+    password: clarity
+
+logging:
+  level:
+    org.springframework.test.context.cache: TRACE
